@@ -1,5 +1,4 @@
-
-# Image Acqusition using Web Camera
+# Ex-2-Image Acqusition using Web Camera
 ## Aim
 To write a python program using OpenCV to capture the image from the web camera and do the following image manipulations.
 i) Write the frame as JPG 
@@ -27,11 +26,11 @@ End the program and close the output video window by pressing 'q'.
 
 ## Program:
 ```
- Developed By: pravin kumar G
+ Developed By: Pravin kumar G
  Register No: 212222230109
 ```
 ## i) Write the frame as JPG file
-```
+```python
 import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
@@ -45,7 +44,7 @@ cv2.destroyAllWindows()
 
 ## ii) Display the video
 
-```
+```python
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -58,7 +57,7 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 ## iii) Display the video by resizing the window
-```
+```python
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -82,7 +81,7 @@ cv2.destroyAllWindows()
 
 
 ## iv) Rotate and display the video
-```
+```python
 import numpy as np
 import cv2
 cap=cv2.VideoCapture(0)
@@ -112,21 +111,24 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
-![(https://github.com/mohan8900/Image_Acqusition-_using_Web_Camera/blob/main/306834696-5c319921-b55e-4ec5-a6f2-f2294b0a8e72.png)](https://github.com/mohan8900/Image_Acqusition-_using_Web_Camera/blob/main/306834696-5c319921-b55e-4ec5-a6f2-f2294b0a8e72.png)
+![WhatsApp Image 2024-11-13 at 15 49 45_6996c664](https://github.com/user-attachments/assets/b53abe92-c1ad-4792-b768-fab2ff9f90cb)
 
 ### ii) Display the video
-![Screenshot 2024-02-21 213311](https://github.com/Jaiganesh235/Image_Acqusition-_using_Web_Camera/assets/118657189/d29f2b17-edf9-4bbe-906e-b6e5a9424d12)
+![WhatsApp Image 2024-11-13 at 15 49 45_6996c664](https://github.com/user-attachments/assets/1ab1e2df-c84c-496e-8fdd-ab2c2fb7aec4)
+
 
 
 
 ### iii) Display the video by resizing the window
 
-![Screenshot 2024-02-21 213416](https://github.com/Jaiganesh235/Image_Acqusition-_using_Web_Camera/assets/118657189/49686dd1-a328-4909-a5f1-ddf0567ecff6)
+![WhatsApp Image 2024-11-13 at 15 49 45_c283da78](https://github.com/user-attachments/assets/b962989e-4369-420e-91e6-ddb88f0f921f)
+
 
 ### iv) Rotate and display the video
 
 
-![Screenshot 2024-02-21 213518](https://github.com/Jaiganesh235/Image_Acqusition-_using_Web_Camera/assets/118657189/2fe12628-6724-41d5-9e06-15bbfa8eacb2)
+![WhatsApp Image 2024-11-13 at 15 49 46_37e6ee7a](https://github.com/user-attachments/assets/35a6d589-0706-4da8-bfc1-07f31f9a9acd)
+
 
 
 
